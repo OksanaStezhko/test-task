@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb/base"],
+  "settings": {
+    "import/parser": "babel-eslint"
+  },
+
+  "rules": {
+    "no-console": "off",
+    "indent": ["error", "2"],
+    "max-len": ["error", 180, { "ignoreUrls": true }],
+    "no-param-reassign": "off",
+    "no-tabs": "off",
+    "func-names": ["error", "as-needed"],
+    "no-restricted-syntax": "off",
+    "linebreak-style": 0,
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "max-classes-per-file": ["error", 5],
+    "arrow-parens": ["error", "as-needed"]
+  },
+  "plugins": ["prettier"]
+}
